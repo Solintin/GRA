@@ -342,7 +342,35 @@ title {
   }
 }
 
+@media (max-width: 1000px) {
+  .navbars .container{
+    max-width: 800px;
+    margin: auto !important;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbars .container .logo {
+    font-size: medium;
+    flex: 1;
+  }
+}
+@media (max-width: 900px) {
+  .navbars .container .logo {
+    font-size: medium;
+   
+  }
+}
 @media (max-width: 760px) {
+  .navbars .container{
+    max-width: 720px !important;
+  }
+  .navbars .container .logo{
+
+    font-size: 30px;
+ 
+  }
   .header span:nth-child(2) {
     font-size: 50px;
     font-weight: 900;
