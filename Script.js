@@ -28,7 +28,7 @@ window.onscroll = () => {
   } else {
     navbar.classList.remove("show-nav");
     scrollUpBtn.classList.remove("show-scroll");
-    grand.classList.remove("grand-white")
+    grand.classList.add("grand-white")
    
    
   }
